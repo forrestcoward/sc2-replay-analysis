@@ -1,0 +1,21 @@
+This is a PyDev (http://pydev.org/) project, however, using Python on the command line also works.
+
+MongoDB (http://www.mongodb.org/) is used to store parsed replay information. Two collections, 'replays' and 'leagues', are used.
+
+The following Python packages must be installed:
+
+PyMongo - Python front end for MongoDB
+https://pypi.python.org/pypi/pymongo/
+pip install pymongo
+
+SC2Reader - A SC2 replay parser.
+https://github.com/GraylinKim/sc2reader
+pip install sc2reader
+
+BeautifulSoup - HTML screen scraper.
+http://www.crummy.com/software/BeautifulSoup/
+pip install beautifulsoup4 
+
+Orange (and its dependencies) - Machine Learning for Python
+http://orange.biolab.si/download/
+pip install orange

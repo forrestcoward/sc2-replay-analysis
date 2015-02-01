@@ -1,0 +1,7 @@
+paper\*.txt
+paper\*.aux
+paper\*.gz
+paper\*.out
+paper\*.pdf
+paper\*.log
+*.pyc
